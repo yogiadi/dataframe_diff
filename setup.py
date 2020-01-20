@@ -2,13 +2,13 @@ from distutils.core import setup
 setup(
   name = 'pd_df_compare',         # How you named your package folder (MyLib)
   packages = ['pd_df_compare'],   # Chose the same as "name"
-  version = '0.5' ,    # Start with a small number and increase it with every change you make
+  version = '0.1' ,    # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Compare two dataframes and return column-wise difference and additional record',   # Give a short description about your library
   author = 'Aditya Yogi',                   # Type in your name
   author_email = 'adityayoginiet@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/yogiadi/pd_df_compare',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/yogiadi/pd_df_compare/archive/v_05.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/yogiadi/pd_df_compare/archive/v_01.tar.gz',    # I explain this later on
   keywords = ['pandas', 'dataframe', 'compare'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'pandas',
