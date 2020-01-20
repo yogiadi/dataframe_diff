@@ -1,4 +1,4 @@
-def pd_df_compare(df_x,df_y,key):
+def dataframe_diff(df_x,df_y,key):
     import pandas as pd
     set_x=['df_x' for i in range(len(df_x))]
     df_x['sets']=set_x
