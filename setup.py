@@ -5,6 +5,7 @@ setup(
   version = '0.2' ,    # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Compare two dataframes and return column-wise difference and additional record',   # Give a short description about your library
+  long_description = """Compare two dataframes and return column-wise difference and additional record""",
   author = 'Aditya Yogi',                   # Type in your name
   author_email = 'adityayoginiet@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/yogiadi/dataframe_diff',   # Provide either the link to your github or to your website
