@@ -7,7 +7,7 @@ dataframe_diff is a micro-library which takes two dataframes as input , compares
 pip install dataframe-diff
 
 ## Examples
-
+```python
 >>> import pandas as pd
 >>> df1=pd.read_csv('students_1.csv')
 >>> df2=pd.read_csv('students_2.csv')
@@ -40,5 +40,5 @@ pip install dataframe-diff
      Name   Subjects  Marks Grade  sets
 0  Rajesh       Math     93     A  df_x
 1  Howard  Chemistry     83     B  df_y
-
+```
 
